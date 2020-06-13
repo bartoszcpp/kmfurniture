@@ -53,7 +53,7 @@ module.exports = {
         // the default wp-json prefix.
         wpAPIPrefix: "wp-rest",
         // OPTIONAL: Support for URLs with ports, e.g. 8080; defaults to no port
-        port: "8000",
+        //port: "8000",
         // OPTIONAL: Encoding; default to 'utf8'
         encoding: "utf8",
         // OPTIONAL: Custom Axios config (see https://github.com/axios/axios) - note that this can override other options.
