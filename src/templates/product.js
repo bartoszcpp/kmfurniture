@@ -28,7 +28,7 @@ Product.propTypes = {
 export default Product
 
 export const postQuery = graphql`
-  query($id: Int!) {
+  ($id: Int!) {
     wordpressWcProducts(wordpress_id: { eq: $id }) {
       prices {
         price
