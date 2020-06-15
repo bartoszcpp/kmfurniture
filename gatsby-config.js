@@ -17,6 +17,7 @@ module.exports = {
         // your WordPress source
         baseUrl: `wordpress.kmfurniture.pl/`,
         protocol: `http`,
+        restApiRoutePrefix: "wp-json",
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
@@ -54,6 +55,7 @@ module.exports = {
         wpAPIPrefix: "wp-rest",
         // OPTIONAL: Support for URLs with ports, e.g. 8080; defaults to no port
         //port: "8000",
+        //
         // OPTIONAL: Encoding; default to 'utf8'
         encoding: "utf8",
         // OPTIONAL: Custom Axios config (see https://github.com/axios/axios) - note that this can override other options.
