@@ -39,7 +39,7 @@ export default function MyHeader(props) {
   return (
     <StaticQuery
       query={graphql`
-        query MyQuery {
+        {
           wordpressPage(title: { eq: "Home" }) {
             acf {
               e_mail
