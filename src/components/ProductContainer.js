@@ -57,7 +57,7 @@ export default function MyHeaderd(props) {
   return (
     <StaticQuery
       query={graphql`
-        query {
+        {
           allWordpressWcProducts {
             edges {
               node {
