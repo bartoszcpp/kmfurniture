@@ -21,6 +21,7 @@
     "@pasdo501/gatsby-source-woocommerce": "^0.14.1",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.22.15",
+    "gatsby-plugin-netlify": "^2.3.5",
     "gatsby-source-wordpress": "^3.3.11",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
