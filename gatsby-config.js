@@ -22,6 +22,15 @@ module.exports = {
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
         useACF: true,
+        includedRoutes: [
+          //"**/categories",
+          "**/posts",
+          "**/pages",
+          // "**/media",
+          // "**/tags",
+          // "**/taxonomies",
+          // "**/users",
+        ],
       },
     },
     {
