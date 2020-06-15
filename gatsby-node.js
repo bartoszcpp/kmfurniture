@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   // query content for WordPress posts
   const result = await graphql(`
-    query MyQuery {
+    query {
       allWordpressWpProduct {
         edges {
           node {
