@@ -17,7 +17,7 @@ module.exports = {
         // your WordPress source
         baseUrl: `wordpress.kmfurniture.pl/`,
         protocol: `http`,
-        restApiRoutePrefix: "wp-json",
+        //restApiRoutePrefix: "wp-json",
         // is it hosted on wordpress.com, or self-hosted?
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
