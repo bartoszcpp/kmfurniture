@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your WordPress source
-        baseUrl: `wordpress.kmfurniture.pl/`,
+        baseUrl: `wordpress.kmfurniture.pl/GatsbyWP`,
         protocol: `http`,
         //restApiRoutePrefix: "wp-json",
         // is it hosted on wordpress.com, or self-hosted?
