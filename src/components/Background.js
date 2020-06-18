@@ -4,7 +4,7 @@ const Background = () => {
   return (
     <div className="background">
       <div className="backgroundImg">
-        <img className="img-fluid" src="/door.jpg" alt="" />
+        <img className="img-fluid" src="/door.webp" alt="" />
         <div className="napis">
           <h1>
             Twoje no<dfn>we</dfn>

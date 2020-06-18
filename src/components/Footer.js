@@ -5,7 +5,7 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 const Footer = () => {
   return (
     <div className="footer">
-      <img className="logo" src="/logoWhite.png" alt="logo" /> <br />
+      <img className="logo" src="/logoWhite.webp" alt="logo" /> <br />
       <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
       <FontAwesomeIcon className="socialIcon" icon={faInstagram} /> <br />
       <a href="/">PRODUKTY</a>

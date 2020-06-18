@@ -13,7 +13,7 @@ const HomePage = () => {
       <ProductContainer />
       <div className="main">
         <div className="plant">
-          <img src="/plant.png" alt="" />
+          <img src="/plant.webp" alt="" />
         </div>
         <div className="tymczasowyUSUN"></div>
         <Contact />

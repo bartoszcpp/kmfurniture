@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <Navbar className="navbar" expand="lg">
         <Navbar.Brand href="/">
-          <img className="img-fluid logoPng" src="/logo.png" alt="" />
+          <img className="img-fluid logoPng" src="/logo.webp" alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
