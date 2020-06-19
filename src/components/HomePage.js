@@ -8,7 +8,7 @@ import ProductContainer from "./ProductContainer"
 const HomePage = () => {
   return (
     <>
-      <div className="ownContainer">
+      <main className="ownContainer">
         <Header />
         <Background />
         <ProductContainer />
@@ -23,7 +23,7 @@ const HomePage = () => {
           <div className="tymczasowyUSUN"></div>
           <div className="tymczasowyUSUN"></div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   )

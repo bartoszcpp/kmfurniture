@@ -38,7 +38,7 @@
 
 /*--------------background-------------------*/
 .background {
-  margin: 0 10% 220px 10%;
+  margin: 30px 10% 220px 10%;
   max-width: 1700px;
   position: relative;
   z-index: 999999;
@@ -300,6 +300,10 @@ textarea {
   .daneKontaktowe {
     padding: 0 10px !important;
   }
+
+  .nav-link {
+    margin-left: auto !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -403,7 +407,7 @@ textarea {
     box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 1);
   }
   .background {
-    margin: 0 5% 220px 5%;
+    margin: 30px 5% 220px 5%;
   }
 }
 
@@ -440,6 +444,12 @@ textarea {
     box-shadow: -10px 10px 0px 0px rgba(255, 255, 255, 1);
   }
   .background {
-    margin: 0 5% 220px 5%;
+    margin: 30px 5% 220px 5%;
+  }
+  .formularz {
+    padding: 10px 10px !important;
+  }
+  .nav-link {
+    font-size: 14px;
   }
 }

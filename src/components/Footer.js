@@ -4,7 +4,7 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <img className="logo" src="/logoWhite.webp" alt="logo" /> <br />
       <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
       <FontAwesomeIcon className="socialIcon" icon={faInstagram} /> <br />
@@ -12,8 +12,8 @@ const Footer = () => {
       <a href="/">O NAS</a>
       <a href="/">KONTAKT</a>
       <br />
-      <p className="author">Paulina Bartosz Studio 2020</p>
-    </div>
+      <p className="author">studio-web.pl</p>
+    </footer>
   )
 }
 
