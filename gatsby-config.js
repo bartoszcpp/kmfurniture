@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         // your WordPress source
-        baseUrl: `bartosz-cpp.pl`,
+        baseUrl: `data.kmfurniture.pl/www`,
         protocol: `https`,
         //restApiRoutePrefix: "wp-json",
         // is it hosted on wordpress.com, or self-hosted?
@@ -30,7 +30,7 @@ module.exports = {
       resolve: "@pasdo501/gatsby-source-woocommerce",
       options: {
         // Base URL of Wordpress site
-        api: "bartosz-cpp.pl",
+        api: "data.kmfurniture.pl/www",
 
         // set to false to not see verbose output during build
         // default: true
@@ -39,8 +39,8 @@ module.exports = {
         // true if using https. otherwise false.
         https: true,
         api_keys: {
-          consumer_key: "ck_ab97695e74efed04c1c8b721d37f9998739ab886",
-          consumer_secret: "cs_ff712f9666b915ea171e57be99d95d7445e3fe5e",
+          consumer_key: "ck_5b94d750e7258d6e27258a8ac48253ff6836d92d",
+          consumer_secret: "cs_faf2d229d642161c816dd7729e38fdebcb4d7d47",
         },
         // Array of strings with fields you'd like to create nodes for...
         fields: ["products"],

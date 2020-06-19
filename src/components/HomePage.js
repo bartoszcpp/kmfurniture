@@ -7,7 +7,7 @@ import ProductContainer from "./ProductContainer"
 
 const HomePage = () => {
   return (
-    <>
+    <div className="ownContainer">
       <Header />
       <Background />
       <ProductContainer />
@@ -23,7 +23,7 @@ const HomePage = () => {
         <div className="tymczasowyUSUN"></div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

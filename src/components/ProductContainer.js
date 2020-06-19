@@ -27,7 +27,7 @@ const ProductContainer = ({ data }) => {
     let slug = slugify(node.name)
     console.log(node)
     return (
-      <div className="col-4 imgProduct" key={slug}>
+      <div className="col-sm-4  imgProduct" key={slug}>
         <Link to={slug}>
           <ImgProduct
             image={node.images[0].src.source_url}
