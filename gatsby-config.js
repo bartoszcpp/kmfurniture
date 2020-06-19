@@ -12,6 +12,7 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-netlify`,
+
     {
       resolve: `gatsby-source-wordpress`,
       options: {
@@ -23,7 +24,7 @@ module.exports = {
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
         useACF: true,
-        verboseOutput: true,
+        //verboseOutput: true,
       },
     },
     {

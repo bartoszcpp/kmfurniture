@@ -16,7 +16,7 @@ const Contact = ({ data }) => {
             </div>
             <div className="col-6 daneKontaktowe">
               <h3>KM Furniture</h3>
-              {/* <p className="font-weight-bold">Adres</p>
+              <p className="font-weight-bold">Adres</p>
               <p>{adres.ulica}</p>
               <p>{adres.kod_pocztowy_i_miejscowosc}</p>
               <br />
@@ -24,7 +24,7 @@ const Contact = ({ data }) => {
               <p>{adres.e_mail}</p>
               <br />
               <p className="font-weight-bold">Telefon</p>
-              <p>{adres.telefon}</p> */}
+              <p>{adres.telefon}</p>
               <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
               <FontAwesomeIcon className="socialIcon" icon={faInstagram} />
             </div>
@@ -38,22 +38,15 @@ const Contact = ({ data }) => {
 export default function MyHeader(props) {
   return (
     <StaticQuery
-      //   query={graphql`
-      //     {
-      //       wordpressPage(title: { eq: "Home" }) {
-      //         acf {
-      //           e_mail
-      //           kod_pocztowy_i_miejscowosc
-      //           telefon
-      //           ulica
-      //         }
-      //       }
-      //     }
-      //   `} //
       query={graphql`
         {
           wordpressPage(title: { eq: "Home" }) {
-            id
+            acf {
+              e_mail
+              kod_pocztowy_i_miejscowosc
+              telefon
+              ulica
+            }
           }
         }
       `} //
