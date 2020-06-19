@@ -452,4 +452,11 @@ textarea {
   .nav-link {
     font-size: 14px;
   }
+
+  .contact {
+    font-size: 13px;
+  }
+  .btn-mod {
+    font-size: 13px;
+  }
 }
