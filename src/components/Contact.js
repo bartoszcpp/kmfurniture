@@ -9,25 +9,23 @@ const Contact = ({ data }) => {
   return (
     <>
       <div className="contactContainer">
-        <div className="container">
-          <div className="row">
-            <div className="col-6 formularz">
-              <ContactForm />
-            </div>
-            <div className="col-6 daneKontaktowe">
-              <h3>KM Furniture</h3>
-              <p className="font-weight-bold">Adres</p>
-              <p>{adres.ulica}</p>
-              <p>{adres.kod_pocztowy_i_miejscowosc}</p>
-              <br />
-              <p className="font-weight-bold">E-mail</p>
-              <p>{adres.e_mail}</p>
-              <br />
-              <p className="font-weight-bold">Telefon</p>
-              <p>{adres.telefon}</p>
-              <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
-              <FontAwesomeIcon className="socialIcon" icon={faInstagram} />
-            </div>
+        <div className="row">
+          <div className="col-lg-6 col-sm-8 formularz">
+            <ContactForm />
+          </div>
+          <div className="col-lg-6 col-sm-4 daneKontaktowe">
+            <h3>KM Furniture</h3>
+            <p className="font-weight-bold">Adres</p>
+            <p>{adres.ulica}</p>
+            <p>{adres.kod_pocztowy_i_miejscowosc}</p>
+            <br />
+            <p className="font-weight-bold">E-mail</p>
+            <p>{adres.e_mail}</p>
+            <br />
+            <p className="font-weight-bold">Telefon</p>
+            <p>{adres.telefon}</p>
+            <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
+            <FontAwesomeIcon className="socialIcon" icon={faInstagram} />
           </div>
         </div>
       </div>
