@@ -19,15 +19,18 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.10",
     "@pasdo501/gatsby-source-woocommerce": "^0.14.1",
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.22.15",
     "gatsby-plugin-netlify": "^2.3.5",
+    "gatsby-plugin-smoothscroll": "^1.1.0",
     "gatsby-source-wordpress": "^3.3.11",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-use-scroll-position": "^2.0.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"

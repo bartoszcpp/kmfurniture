@@ -12,6 +12,7 @@ module.exports = {
 
   plugins: [
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-smoothscroll`,
 
     {
       resolve: `gatsby-source-wordpress`,

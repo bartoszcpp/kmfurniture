@@ -10,6 +10,10 @@
   margin: 20px;
 }
 
+button:focus {
+  outline: 0 !important;
+}
+
 .ownContainer {
   max-width: 1300px;
   margin-left: auto;
@@ -18,6 +22,43 @@
 
 .tymczasowyUSUN {
   height: 460px;
+}
+
+/*---------------------button----------------*/
+#button {
+  display: inline-block;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 /*---------------------header----------------*/
@@ -81,7 +122,7 @@
 
 /*-------------------products-------------------*/
 .products {
-  z-index: 9999999999;
+  z-index: 999;
   position: relative;
   background-color: #eaeaea82;
   text-align: center;
@@ -244,6 +285,19 @@ textarea {
   letter-spacing: 2px;
 }
 
+/*-----------------------OneOfProductContainer-----------*/
+.imgOfProduct {
+  padding: 50px;
+}
+
+.infoProduct {
+  padding: 50px;
+}
+
+.infoProduct h4 {
+  margin-top: 50px;
+}
+
 /*-------------------------footer------------------------*/
 .footer {
   background-color: black;
@@ -257,6 +311,12 @@ textarea {
 .footer a {
   padding: 10px;
   color: white;
+}
+
+.footer a:hover {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .footer > .socialIcon:hover {
@@ -306,10 +366,35 @@ textarea {
   }
 }
 
+@media (max-width: 767px) {
+  .infoProduct {
+    text-align: center;
+  }
+}
+
 @media (max-width: 575px) {
   .daneKontaktowe {
     background-color: #eaeaea82;
     text-align: center;
+  }
+  #button {
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
+    right: 10px;
+  }
+  #button::after {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .infoProduct h3 {
+    font-size: 22px;
+  }
+  .infoProduct h4 {
+    font-size: 18px;
   }
 }
 

@@ -8,7 +8,7 @@ const Contact = ({ data }) => {
   const adres = data.wordpressPage.acf
   return (
     <>
-      <div className="contactContainer">
+      <div className="contactContainer" id="contact">
         <div className="row">
           <div className="col-lg-6 col-sm-8 formularz">
             <ContactForm />

@@ -4,12 +4,14 @@ import Background from "../components/Background"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
 import ProductContainer from "./ProductContainer"
+import ButtonUp from "./ButtonUp"
 
 const HomePage = () => {
   return (
     <>
       <main className="ownContainer">
-        <Header />
+        <Header count={2} />
+        <ButtonUp />
         <Background />
         <ProductContainer />
         <div className="main">
@@ -18,10 +20,6 @@ const HomePage = () => {
           </div>
           <div className="tymczasowyUSUN"></div>
           <Contact />
-          <div className="tymczasowyUSUN"></div>
-          <div className="tymczasowyUSUN"></div>
-          <div className="tymczasowyUSUN"></div>
-          <div className="tymczasowyUSUN"></div>
         </div>
       </main>
       <Footer />

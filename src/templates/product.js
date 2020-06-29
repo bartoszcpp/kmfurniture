@@ -3,19 +3,21 @@ import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import Header from "../components/Header"
 import Background from "../components/Background"
+import Footer from "../components/Footer"
+import OneOfProductContainer from "../components/OneOfProductContainer"
 
 const Product = ({ data }) => {
   const product = data.wordpressWcProducts
   return (
     <>
-      <Header />
+      <Header count={1} />
       <Background />
-      <img
-        className="img-fluid"
-        src={product.images[0].src.source_url}
-        alt=""
+      <OneOfProductContainer
+        image={product.images[0].src.source_url}
+        name={product.name}
+        price={product.prices.price}
       />
-      <p>{product.name}</p>
+      <Footer />
     </>
   )
 }
