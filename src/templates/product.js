@@ -10,14 +10,19 @@ const Product = ({ data }) => {
   const product = data.wordpressWcProducts
   return (
     <>
-      <Header count={1} />
-      <Background />
-      <OneOfProductContainer
-        image={product.images[0].src.source_url}
-        name={product.name}
-        price={product.prices.price}
-      />
-      <Footer />
+      <main>
+        <Header count={1} />
+        <Background />
+        <div className="plant">
+          <img src="/plant.webp" alt="" />
+        </div>
+        <OneOfProductContainer
+          image={product.images[0].src.source_url}
+          name={product.name}
+          price={product.prices.price}
+        />
+      </main>
+      <Footer count={1} />
     </>
   )
 }

@@ -26,7 +26,8 @@ button:focus {
 
 /*---------------------button----------------*/
 #button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   background-color: black;
   width: 50px;
   height: 50px;
@@ -40,7 +41,13 @@ button:focus {
   visibility: hidden;
   z-index: 1000;
 }
-#button::after {
+
+.arrowUp {
+  margin: 0 auto;
+  display: block;
+  color: white;
+}
+/* #button::after {
   content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
@@ -48,7 +55,7 @@ button:focus {
   font-size: 2em;
   line-height: 50px;
   color: #fff;
-}
+} */
 #button:hover {
   cursor: pointer;
   background-color: #333;
@@ -237,6 +244,7 @@ button:focus {
 
 .buttonSend {
   text-align: right;
+  margin-top: 20px;
 }
 
 /* .form {
@@ -383,10 +391,10 @@ textarea {
     bottom: 20px;
     right: 10px;
   }
-  #button::after {
+  /* #button::after {
     font-size: 20px;
     line-height: 30px;
-  }
+  } */
 }
 
 @media (max-width: 400px) {

@@ -22,7 +22,7 @@ const HomePage = () => {
           <Contact />
         </div>
       </main>
-      <Footer />
+      <Footer count={2} />
     </>
   )
 }
