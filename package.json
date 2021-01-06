@@ -19,7 +19,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.10",
     "@pasdo501/gatsby-source-woocommerce": "^0.14.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "gatsby": "^2.22.15",
     "gatsby-plugin-netlify": "^2.3.5",
