@@ -24,7 +24,7 @@
     "gatsby": "^2.22.15",
     "gatsby-plugin-netlify": "^2.3.5",
     "gatsby-plugin-smoothscroll": "^1.1.0",
-    "gatsby-source-wordpress": "^3.3.11",
+    "gatsby-source-wordpress": "^4.0.8",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
     "react": "^16.12.0",
